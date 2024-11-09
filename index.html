@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranish Siwakoti - FittoGym</title>
+    <style>
+        /* Global styling */
+        body {
+            margin: 0;
+            font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Navbar styling */
+        .navbar ul {
+            list-style-type: none;
+            background-color: #333;
+            padding: 10px;
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            color: aqua;
+        }
+
+        .navbar li {
+            margin: 0 15px;
+        }
+
+        /* Hero section styling */
+        .hero-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        .highlight {
+            color: rgb(174, 0, 255);
+        }
+
+        .hero-section h3 {
+            margin: 10px 0;
+            font-weight: normal;
+        }
+
+        /* Membership and steps section */
+        .membership-options {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .steps-section {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .steps-section h3 {
+            color: #333;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .steps-section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .steps-section li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .steps-section li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: rgb(174, 0, 255);
+        }
+
+        /* Button styling */
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: tomato;
+            color: #fff;
+            border-radius: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: orange;
+        }
+
+        .cta-button:active {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="services.html" target="_blank">Services</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>Wel<span class="highlight">come</span> to FittoGym</h1>
+        <h3>Want to become a member of <i>FittoGym</i>?</h3>
+
+        <div class="membership-options">
+            <input type="radio" name="option" value="yes"> Yes
+            <input type="radio" name="option" value="no"> No
+        </div>
+    </section>
+
+    <!-- Steps Section -->
+    <section class="steps-section">
+        <h3>How to Join FittoGym?</h3>
+        <ul>
+            <li>Step 1: Go to the CONTACT page and fill out the necessary form.</li>
+            <li>Step 2: Submit the form and wait for a response within 12 hours.</li>
+            <li>Step 3: Check your email for a link to purchase a subscription.</li>
+            <li>Step 4: Complete the subscription to officially become a member of <i>FittoGym</i>.</li>
+        </ul>
+    </section>
+
+    <!-- CTA Button -->
+    <div style="text-align: center;">
+        <h3>For more info:</h3>
+        <a href="https://pranishsiwakoti.github.io/Portfolio/" target="_blank" class="cta-button">Click here</a>
+    </div>
+
+</body>
+</html>
